@@ -1,6 +1,6 @@
 FISHR-Project
 
-TO COMPILE: g++ -O2 -o FISHR ./ErrorFinder23.3_Low_Ram/ErrorFinderMain.cpp
+TO COMPILE: g++ -O2 -o FISHR_Low_Ram ./ErrorFinder23.3_Low_Ram/ErrorFinderMain.cpp
 
 TO RUN: 
 

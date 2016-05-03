@@ -804,11 +804,11 @@ void ErrorCalculator::finalOutPut(int pers1,int pers2,int snp1,int snp2, float m
                      return;
 
              }
-	     //trying to change format for sorting. Removeing first 5 chars to erase "pers."
-	     string p1 = sample_id[pers1*2];
-	     p1.erase(p1.begin(), p1.begin()+5);
+	     //trying to change format for sorting. Removeing first 5 chars to erase "pers."Removeing first 5 chars to erase "pers." PIYUSH CHNAGED NAMES INTACT
+	     //string p1 = sample_id[pers1*2];
+	     //p1.erase(p1.begin(), p1.begin()+5);
                // cout<<sample_id[pers1*2]<<"\t"
-               cout<<p1<<"\t"
+               cout<<sample_id[pers1*2]<<"\t"
              <<sample_id[pers2*2]<<"\t"
              <<marker_id[snp1].bp_distance<<"\t"
              <<marker_id[snp2].bp_distance<<"\t"
